@@ -1,0 +1,29 @@
+@media (max-width:580px) {
+    header nav{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    
+    header .text h1{
+        font-size: 30px;
+    }
+    header .text h2{
+        font-size: 20px;
+    }
+    header .text p{
+        font-size: 15px;
+        color: green;
+    }
+    
+}
+
+@media (max-width: 440px) {
+    header nav ul li a{
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    
+    header nav .logo{
+        margin-bottom: 15px;
+    }
+}
